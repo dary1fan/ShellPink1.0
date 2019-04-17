@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e2e2e2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/nowuserame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我现在就这么告诉你,你就是个猪皮娃！"
+            android:textSize="50sp"
+            android:textStyle="bold"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查看信息"
+            android:id="@+id/checkInfo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/personinfo"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
